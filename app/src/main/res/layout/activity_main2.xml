@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C9C9C9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/biodata"
+        />
+
+    <EditText
+        android:id="@+id/nimedit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/nim"
+        />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/nimedit"
+        />
+
+    <EditText
+        android:id="@+id/namaedit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/nama"
+        />
+
+    <Button
+        android:id="@+id/btnbiodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_below="@+id/namaedit"
+        />
+
+
+</RelativeLayout>
